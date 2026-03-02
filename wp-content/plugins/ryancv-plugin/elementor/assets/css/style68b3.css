@@ -1,0 +1,29 @@
+.el-map {
+	height: 240px;
+}
+.elementor-editor-active .gutter-sizer {
+  display: none;
+}
+.elementor-editor-active .grid-items .col {
+  position: relative !important;
+  left: 0 !important;
+  top: 0 !important;
+}
+.elementor-editor-active .main-container.js-scroll {
+  padding-top: 120px;
+}
+.elementor-editor-active.body-style-scroll .card-inner {
+  display: none !important;
+}
+.elementor-editor-active.body-style-scroll .card-inner.active {
+  display: block !important;
+}
+@media (min-width: 1120px) {
+  body:not(.body-style-scroll) .menu-horizontal-style .card-inner, 
+  .body-style-scroll .menu-horizontal-style .content-sidebar + .card-inner {
+      margin-top: 0;
+  }
+}
+.elementor-editor-active .menu-horizontal-style .header .top-menu {
+	display: none !important;
+}
