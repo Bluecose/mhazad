@@ -1098,9 +1098,9 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 																		<a href="https://drive.google.com/file/d/1-M4ZrEZ-m17-dTAjDzeYsALHUfupW1EK/view?usp=sharing" class="lnk" target="_blank">
 							<span class="text">Resume</span>
 													</a>
-																								<a href="#" class="lnk">
-							<span class="text">Video Resume</span>
-													</a>
+																								<a href="https://www.youtube.com/watch?v=Ez98kvIKoOU" class="lnk popup-video">
+  <span class="text">Video Resume</span>
+</a>
 																								<a href="index.php/contact/index.html" class="lnk" >
 							<span class="text">Contact</span>
 													</a>
@@ -3124,7 +3124,13 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 
-
+<script>
+jQuery(document).ready(function($) {
+  $('.popup-video').magnificPopup({
+    type: 'iframe'
+  });
+});
+</script>
 
 
 </body>
